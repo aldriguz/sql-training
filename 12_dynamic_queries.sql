@@ -11,3 +11,16 @@ BEGIN
     OPEN P_CURSOR FOR 'select * from TRON2000.G010007_EXT where rownum <= 10';   
     :1 := P_CURSOR;
 END;
+
+
+
+
+DECLARE
+    P_CURSOR   SYS_REFCURSOR;
+    --variables
+
+
+BEGIN
+    OPEN P_CURSOR FOR 'select * from TRON2000.G010007_EXT where rownum <= 10';   
+    :1 := P_CURSOR;
+END;
